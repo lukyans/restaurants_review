@@ -13,6 +13,8 @@
   <%= @restaurant.user_id %>
 </p>
 
+<%= image_tag @restaurant.main_image, width: 350 %>
+
 <%= render 'reviews/form' %>
 <h2>Reviews</h2>
 <div class="mb-3 h4">
